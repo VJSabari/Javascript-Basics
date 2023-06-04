@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Taking Input from Users in different ways</h1><br>
+    <div class="outercontainer">
+        <div class="one">
+            <h3>1. Using text input</h3>
+            <label>Username</label> <input type="text" id="uname"><br><br>
+            <label>Password</label> <input type="text" id="upass"><br><br>
+            <input type="button" value="submit" onclick="validateUser()">
+        </div>
+        <div class="two">
+            <h3>2. Using radio button</h3>
+            <h5>What is the national animal of India?</h5>
+            <input type="radio" name="G1" id="lion">Lion <br><br>
+            <input type="radio" name="G1" id="elephant">Elephant <br><br>
+            <input type="radio" name="G1" id="tiger">Tiger <br><br>
+            <input type="button" value="submit" onclick="validateCorrectAnswer()">
+        </div>
+        <div class="three">
+            <h3>3. Using selectbox</h3>
+            <h5>Which team doesn't win IPL cup?</h5>
+            <select id="team">
+                <option value="rcb">RCB</option>
+                <option value="mi">MI</option>
+                <option value="csk">CSK</option>
+            </select>
+            <input type="button" value="submit" onclick="validateLoser()">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

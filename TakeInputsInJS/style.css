@@ -1,0 +1,11 @@
+h1{
+    text-align: center;
+}
+
+.outercontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+
+}
