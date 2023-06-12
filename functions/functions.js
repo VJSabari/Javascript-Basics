@@ -4,7 +4,7 @@ function square()
     var numbers = [1,2,3,4,5];
     for(const number of numbers)
     {
-        square.push(number * number);
+        square.push(number ** 2);
     }
     alert(square);
 }
