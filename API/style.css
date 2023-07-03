@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.superHeroDiv{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    column-gap: 100px;
+}
+p{
+    font-size: 1.5rem;
+    text-align: left;
+}
+h3{
+    font-size: 2rem;
+    color: coral;
+}
+button{
+    font-size: 1.1rem;
+    margin: 0 10px;
+    cursor: pointer;
+}
+input{
+    width: 350px;
+    height: 24px;
+}
+.superHeroImage{
+    min-width: 550px;
+    min-height: 700px;
+}
