@@ -1,0 +1,61 @@
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 50%;
+    align-items: center;
+    row-gap: 20px;
+    font-size: 2rem;
+}
+h1{
+    color: yellowgreen;
+}
+input{
+    width: 700px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 2rem;
+}
+
+button{
+    margin-top: 20px;
+    font-size: 2rem;
+    cursor: pointer;
+    height: 75px;
+    width: 170px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 20px;
+}
+.result{
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    width: 700px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    display: none;
+
+}
+.country{
+    width: 100%;
+    border-bottom: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: grey;
+    
+}
+p{
+    font-size: 2rem;
+}
+.temperature{
+    text-align: center;
+}
+.type{
+    font-size: 2.5rem;
+}
+
