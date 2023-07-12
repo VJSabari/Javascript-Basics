@@ -7,7 +7,7 @@ const url = 'https://open-weather13.p.rapidapi.com/city';
 const options = {
 	method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': 'e5deb7a89bmsh8e002e0ee12d5e1p1e0e08jsna901df68f99b',
+		'X-RapidAPI-Key': '',
 		'X-RapidAPI-Host': 'open-weather13.p.rapidapi.com'
 	}
 };
