@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+}
+.colors{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 100px;
+}
+.color-ball{
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.resetBtn{
+    margin-top: 50px;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.color-ball:hover{
+    opacity: 0.85;
+}
